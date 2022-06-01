@@ -1,8 +1,11 @@
 package model;
 
+import java.util.Date;
+
 public class Cliente {
 	private String nome;
 	private String sobrenome;
+	private Date dtnascimento;
 	
 	public String getNome() {
 		return nome;
@@ -16,6 +19,10 @@ public class Cliente {
 	public void setSobrenome(String sobrenome) {
 		this.sobrenome = sobrenome;
 	}
-	
-
+	public Date getDtnascimento() {
+		return dtnascimento;
+	}
+	public void setDtnascimento(Date dtnascimento) {
+		this.dtnascimento = dtnascimento;
+	}
 }
